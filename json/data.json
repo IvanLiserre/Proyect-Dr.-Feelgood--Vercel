@@ -1,0 +1,56 @@
+[
+    {
+        "id": "0",
+        "titulo": "Cerveza",
+        "variedad": "Honey",
+        "precio": 900
+    },
+    {
+        "id": "1",
+        "titulo": "Cerveza",
+        "variedad": "Ipa",
+        "precio": 900
+    },
+    {
+        "id": "2",
+        "titulo": "Cerveza",
+        "variedad": "Scottish",
+        "precio": 900
+    }, 
+    {
+        "id": "3",
+        "titulo": "Vino",
+        "variedad": "Mendoza",
+        "precio": 500
+    },
+    {
+       "id": "4",
+       "titulo": "Vino",
+       "variedad": "San Juan",
+       "precio": 500
+    },
+    {
+        "id": "5",
+        "titulo": "Vino",
+        "variedad": "La Rioja",
+        "precio": 500
+    },
+    {
+        "id": "6",
+        "titulo": "Whisky",
+        "variedad": "Clasico",
+        "precio": 5000
+    },
+    {
+        "id": "7",
+        "titulo": "Whisky",
+        "variedad": "Fire",
+        "precio": 5300
+    },
+    {
+        "id": "8",
+        "titulo": "Whisky",
+        "variedad": "Honey",
+        "precio": 5600
+    }
+]
