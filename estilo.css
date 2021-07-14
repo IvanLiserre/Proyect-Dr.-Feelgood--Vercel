@@ -4,6 +4,7 @@
 }
 
 /* Tipografías importadas  */
+
 @font-face {
     font-family: zombie scary;
     src: url(Fuentes/Scary\ Zombie.otf);
@@ -22,6 +23,7 @@
 }
 
 /* Diseño body, header, main y section "productos" */ 
+
 body {
     background-image: url(Imagenes/lunar-midnight.gif);
 }
@@ -149,6 +151,7 @@ header {
 }
 
 /* Pie de página */ 
+
 footer {
     font-size: 100%;
     background-color:black;
@@ -172,11 +175,30 @@ footer a img {
     float: left;
  } 
 
- /* Media Queries */
- @media screen and (max-width: 480px) {
+ /* HTML Carrito */
+
+.carrito {
+    margin: -3.5% 0% 0% 35%;
+}
+.carrito label {
+    font-size: 110%;
+    font-family: monster;
+    letter-spacing: 2px;
+    text-indent: 12px;
+}
+#confirmarPedido {
+    font-family: monster;
+}
+
+/* Media Queries index HTML*/
+
+@media screen and (max-width: 480px) {
     body {
         width: 100%;
         float: none;
+    }
+    #inputEdad {
+        margin: 0% 0% 0% 16%;
     }
     .titulo {
         width: 100%;
@@ -224,3 +246,17 @@ footer a img {
         float: left;
     }
  }
+
+ /* Media Queries carrito HTML*/
+
+ @media screen and (max-width: 480px) {
+    #inputInicio {
+        margin: 0% 0% 0% 12%;
+    }
+    .card {
+        max-width: 100%;
+    }
+    .carrito {
+        margin: -3% 0% 0% 0%;
+    }
+  }
