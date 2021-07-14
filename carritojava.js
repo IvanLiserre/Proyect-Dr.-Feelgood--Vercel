@@ -21,7 +21,7 @@ $("#inputInicio").val("Ir a inicio para otra cita");
 inputInicio.className = "btn btn-dark"
 
 $("#inputInicio").click(() => {
-    window.location.assign("https://ivanliserre.github.io/doctorfeelgood/")
+    window.location.assign("https://doctorfeelgood.vercel.app/")
 });
 
 // Estilos CSS mediante jQuery //
