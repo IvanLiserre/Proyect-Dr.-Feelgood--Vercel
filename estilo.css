@@ -177,6 +177,9 @@ footer a img {
 
  /* HTML Carrito */
 
+#inputInicio {
+    font-family: zombie carshel;
+}
 .carrito {
     margin: -3.5% 0% 0% 35%;
 }
