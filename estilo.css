@@ -256,7 +256,7 @@ footer a img {
  @media screen and (max-width: 480px) {
     #inputInicio {
         font-size: 180%;
-        margin: 2% 0% 2% 12%;
+        margin: 2% 0% 4% 13%;
     }
     .card {
         max-width: 100%;
