@@ -251,12 +251,12 @@ footer a img {
 
  @media screen and (max-width: 480px) {
     #inputInicio {
-        font-size: 150%;
+        font-size: 180%;
         margin: 0% 0% 0% 10%;
     }
     .card {
         max-width: 100%;
-        margin-top: 2%;
+        margin-top: 4%;
     }
     .carrito {
         margin: -3% 0% 0% 0%;
