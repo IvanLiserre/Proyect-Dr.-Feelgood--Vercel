@@ -190,7 +190,7 @@ footer a img {
     font-family: monster;
 }
 
-/* Media Queries index HTML*/
+/* Media Queries index HTML */
 
 @media screen and (max-width: 480px) {
     body {
@@ -198,7 +198,7 @@ footer a img {
         float: none;
     }
     #inputEdad {
-        margin: 0% 0% 0% 16%;
+        text-align: center;
     }
     .titulo {
         width: 100%;
@@ -251,10 +251,12 @@ footer a img {
 
  @media screen and (max-width: 480px) {
     #inputInicio {
-        margin: 0% 0% 0% 12%;
+        font-size: 150%;
+        margin: 0% 0% 0% 10%;
     }
     .card {
         max-width: 100%;
+        margin-top: 2%;
     }
     .carrito {
         margin: -3% 0% 0% 0%;
