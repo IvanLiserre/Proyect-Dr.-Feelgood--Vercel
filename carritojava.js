@@ -16,7 +16,7 @@ $("#confirmarPedido").click(() => {
 });
 
 // Input para volver a inicio // 
-$("#inputInicio").val("Ir a inicio para otra cita");
+$("#inputInicio").val("Volver para otra cita");
 
 inputInicio.className = "btn btn-dark"
 
