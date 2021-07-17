@@ -40,7 +40,6 @@ header {
     letter-spacing: 4px;
     text-align: center;
     text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    margin-left: 12%;
 }
 .titulo {
     font-size: 520%;
@@ -200,6 +199,7 @@ footer a img {
     }
     #inputEdad {
         text-align: center;
+        margin-left: 12%;
     }
     .titulo {
         width: 100%;
