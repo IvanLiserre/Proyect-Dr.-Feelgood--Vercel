@@ -40,10 +40,7 @@ header {
     letter-spacing: 4px;
     text-align: center;
     text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
-#carrito {
-    float: right;
-    margin: 0.5% 1% 0% 0%;
+    margin-left: 10%;
 }
 .titulo {
     font-size: 520%;
