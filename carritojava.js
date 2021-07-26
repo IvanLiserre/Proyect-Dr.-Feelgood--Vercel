@@ -11,7 +11,7 @@ $("#pedido").change(() => {
 
 // Evento para confirmar pedido y notificar al usuario //
 $("#confirmarPedido").click(() => {
-        swal("Listo!");
+        swal("Pedido enviado!");
         $("#pedido").trigger("reset");
 });
 
