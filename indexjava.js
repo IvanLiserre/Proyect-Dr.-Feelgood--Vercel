@@ -41,7 +41,7 @@ const jsonLocal = './json/data.json';
     pintarCardsBebidas(datos); 
 });
 
-// Función para llamar array de productos-bebidas desde archivo json local//
+// Función para llamar array de productos-bebidas desde archivo json local //
  function pintarCardsBebidas (Bebidas) {
     for(let element of Bebidas){
     $(".productos").append(`<div class="card text-white bg-dark mb-3">
