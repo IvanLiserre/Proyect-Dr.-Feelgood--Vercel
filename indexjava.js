@@ -55,7 +55,7 @@ const jsonLocal = './json/data.json';
     <button onclick="wsp(${element.id})" class="btn btn-success">Consultar stock</button>
     </div>`);
     // Evento on click para confirmar pedido //
-    $(`#botonCarrito${element.id}`).on("click", function() {
+    $(`#botonCarrito${element.id}`).click(() => {
         swal("Vamos por esa receta!");
     });
 
