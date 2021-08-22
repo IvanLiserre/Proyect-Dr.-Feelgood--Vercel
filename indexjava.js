@@ -56,7 +56,7 @@ const jsonLocal = './json/data.json';
     </div>`);
     // Evento on click para confirmar pedido //
     $(`#botonCarrito${element.id}`).click(() => {
-        window.location.assign('/carrito.html')
+        window.location.assign("carrito.html")
         swal("Vamos por esa receta!");
     });
 
