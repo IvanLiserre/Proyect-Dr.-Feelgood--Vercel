@@ -51,11 +51,12 @@ const jsonLocal = './json/data.json';
     <p class="card-text">${element.variedad}</p>
     <p class="card-text">$${(element.precio)}</p>
     <p class="card-text">El precio con envío es de $${costoEnvio(element.precio)}</p>
-    <a window.location.assign('/carrito.html') id="botonCarrito${element.id}" class="btn btn-success">Agregar al carrito</a>
+    <a id="botonCarrito${element.id}" class="btn btn-success">Agregar al carrito</a>
     <button onclick="wsp(${element.id})" class="btn btn-success">Consultar stock</button>
     </div>`);
     // Evento on click para confirmar pedido //
     $(`#botonCarrito${element.id}`).click(() => {
+        window.location.assign('/carrito.html')
         swal("Vamos por esa receta!");
     });
 
